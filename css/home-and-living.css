@@ -1,0 +1,72 @@
+.home-and-living {
+    padding: 0 60px;
+}
+.banner-image {
+    margin: 100px auto;
+}
+
+.home-banner-section {
+    width: 1223px;
+    height: 321px;
+    
+}
+
+.nice-to-see {
+    width: 100%;
+    height: 1392px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.nice-to-see-row {
+    display: flex;
+}
+
+.nice-to-see-column1 {
+    width: 70%;
+    padding-left: 60px;
+    /* border: 1px solid green; */
+}
+.nice-to-see-column1 h4 {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 70px 30px;
+    font-weight: 700;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.nice-to-see-column1 .image-section {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.nice-to-see-column1 .image-section .card-section {
+    width: 50%;
+    overflow: hidden;
+}
+.nice-to-see-column1 .image-section .card-section img {
+    transition: 1s;
+}
+.nice-to-see-column1 .image-section .card-section img:hover {
+    scale: 1.05;
+}
+
+.nice-to-see-column2 {
+    width: 30%;
+    padding-left: 60px;
+}
+
+.nice-to-see-column2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nice-to-see-column2 ul li {
+    text-decoration: none;
+    padding: 4px 0;
+}
+.nice-to-see-column2 ul li a{
+    text-decoration: none;
+}
